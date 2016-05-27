@@ -3,3 +3,4 @@ C:\Users\simon.hunter\Source\Repos\FlightScanner\FlightScannerApp\FlightScannerA
 C:\Users\simon.hunter\Source\Repos\FlightScanner\FlightScannerApp\FlightScannerApp\bin\FlightScannerApp.pdb
 C:\Users\simon.hunter\Source\Repos\FlightScanner\FlightScannerApp\FlightScannerApp\obj\Debug\FlightScannerApp.dll
 C:\Users\simon.hunter\Source\Repos\FlightScanner\FlightScannerApp\FlightScannerApp\obj\Debug\FlightScannerApp.pdb
+C:\Users\simon.hunter\Source\Repos\FlightScanner\FlightScannerApp\FlightScannerApp\obj\Debug\FlightScannerApp.csprojResolveAssemblyReference.cache
