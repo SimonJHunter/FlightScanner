@@ -57,6 +57,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Scripts\vendor\jquery-2.2.3.intellisense.js" />
+    <None Include="Scripts\vendor\angular.intellisense.js" />
+    <Content Include="Scripts\vendor\jquery-2.2.3.js" />
+    <Content Include="Scripts\vendor\jquery-2.2.3.min.js" />
+    <Content Include="Scripts\vendor\angular-route.js" />
+    <Content Include="Scripts\vendor\angular-route.min.js" />
+    <Content Include="Scripts\vendor\angular.js" />
+    <Content Include="Scripts\vendor\angular.min.js" />
+    <Content Include="Scripts\vendor\angular.min.js.map" />
+    <Content Include="packages.config" />
+    <Content Include="Scripts\vendor\angular-route.min.js.map" />
+    <Content Include="Scripts\vendor\jquery-2.2.3.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -65,11 +77,19 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\main.css" />
     <Content Include="FlightPicker.html" />
+    <Content Include="js\app.js" />
+    <Content Include="js\controllers\FlightPickerController.js" />
+    <Content Include="Scripts\vendor\angular-mocks.js" />
+    <None Include="Scripts\_references.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

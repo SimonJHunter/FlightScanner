@@ -1,0 +1,5 @@
+C:\Users\simon.hunter\Source\Repos\FlightScanner\FlightScannerApp\FlightScannerApp\bin\FlightScannerApp.dll.config
+C:\Users\simon.hunter\Source\Repos\FlightScanner\FlightScannerApp\FlightScannerApp\bin\FlightScannerApp.dll
+C:\Users\simon.hunter\Source\Repos\FlightScanner\FlightScannerApp\FlightScannerApp\bin\FlightScannerApp.pdb
+C:\Users\simon.hunter\Source\Repos\FlightScanner\FlightScannerApp\FlightScannerApp\obj\Debug\FlightScannerApp.dll
+C:\Users\simon.hunter\Source\Repos\FlightScanner\FlightScannerApp\FlightScannerApp\obj\Debug\FlightScannerApp.pdb

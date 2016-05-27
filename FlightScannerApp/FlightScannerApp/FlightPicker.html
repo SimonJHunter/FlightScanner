@@ -2,8 +2,44 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
+    <link href="css/main.css" rel="stylesheet" />
+    <script src="Scripts/vendor/angular.min.js"></script>
 </head>
-<body>
+<body ng-app="myApp">
+    <div class="header">
+        <div class="container">
+            <h1>Pick</h1>
+        </div>
+    </div>
+    <div class="main" ng-controller="FlightPickerController">
+        <div class="container">
 
+            <h1>{{ title }}</h1>
+
+            <div ng-repeat="flight in flights" class="col-md-6">
+                <div class="thumbnail">
+                    <p class="title">{{ flight.origin }}</p>
+                    <p class="title">{{ flight.destination }}</p>
+                    <p class="title">{{ flight.airline }}</p>
+                    <p class="date">{{ flight.deptime | date }}</p>
+                    <p class="date">{{ flight.arrtime | date }}</p>
+                    <p class="price">{{ flight.price | currency }}</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+        </div>
+    </div>
+
+
+    <!-- Modules -->
+    <script src="js/app.js"></script>
+
+    <!-- Controllers -->
+    <script src="js/controllers/FlightPickerController.js"></script>
 </body>
 </html>
