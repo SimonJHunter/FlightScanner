@@ -12,11 +12,10 @@
         </div>
     </div>
     <div class="main" ng-controller="FlightPickerController">
-        <div class="container">
-
-            <h1>{{ title }}</h1>
-
-            <div ng-repeat="flight in flights | orderBy:'price'" class="col-md-6">
+        <h1>{{ title }}</h1>
+        <div class="container-fluid">
+        <div class="row">
+            <div ng-repeat="flight in flights | orderBy:'price'" class="col-xs-12 col-sm-6">
                 <div class="thumbnail">
                     <p class="title">{{ flight.origin }}</p>
                     <p class="title">{{ flight.destination }}</p>
@@ -27,11 +26,11 @@
                     <div class="pax">
                         <p>Adults: {{ flight.paxadult }}</p>
                         <p class="likes" ng-click="plusOneAdult($index)">+ </p>
-                        <p class="dislikes " ng-click="minusOneAdult($index)">-</p> 
+                        <p class="dislikes " ng-click="minusOneAdult($index)">-</p>
                     </div>
                 </div>
             </div>
-
+        </div>
         </div>
     </div>
 
@@ -46,5 +45,8 @@
 
     <!-- Controllers -->
     <script src="js/controllers/FlightPickerController.js"></script>
+
+    <!-- Directives -->
+    <script src="js/directives/flightInfo.js"></script>
 </body>
 </html>

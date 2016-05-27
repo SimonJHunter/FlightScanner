@@ -24,7 +24,7 @@
 
 .main h1 {
  color: #F65A5B ;
- font-size: 30px;
+ font-size: 64px;
  margin: 0 0 80px 0;
  padding: 20px 0;
    line-height: 60px;
@@ -40,6 +40,8 @@
 }
 
 .thumbnail {
+ background-color: white;
+ width: 200px;
  border: 0px;
  position: relative;
  padding: 50px;
